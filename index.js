@@ -67,4 +67,6 @@ app.get("/api/shorturl/:shroturl",(req, res)=>{
 })
 
 
-
+app.listen(port, function() {
+  console.log(`Listening on port ${port}`);
+});
